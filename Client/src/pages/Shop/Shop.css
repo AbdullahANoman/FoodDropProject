@@ -1,0 +1,21 @@
+.backgroundShopImage {
+  background: #bac64a
+    url("https://food-drop.themerex.net/wp-content/uploads/2016/12/food-pattern-15.png?id=577");
+ 
+}
+
+figure.zoom {
+  background-position: 50% 50%;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  cursor: zoom-in;
+}
+figure.zoom img:hover {
+  opacity: 0;
+}
+figure.zoom img {
+  transition: opacity .5s;
+  display: block;
+  width: 100%;
+}

@@ -1,0 +1,8 @@
+.backgroundImageBanner {
+    background-image: url("https://i.ibb.co/6XJyCf1/FOOD-INTOLERANCE-1.jpg");
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+  }
