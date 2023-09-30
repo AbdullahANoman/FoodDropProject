@@ -19,7 +19,7 @@ const Home = () => {
         className={`   ${
           toggle
             ? "backgroundImageBanner"
-            : "bg-[#BAC64A] h-[100vh] duration-700 ease-in-out   "
+            : "bg-[#BAC64A] h-[100vh]  "
         } px-20 py-10 `}
       >
         <Navbar toggle={toggle} setToggle={setToggle} />

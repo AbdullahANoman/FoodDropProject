@@ -139,7 +139,7 @@ const SignUp = () => {
         <div>
           <img
             className="hidden md:block w-[600px]"
-            src="https://i.ibb.co/X2R0ZmT/signup.png"
+            src="https://i.ibb.co/SvTL34t/signup.jpg"
             alt="signUp"
           />
         </div>
@@ -248,19 +248,19 @@ const SignUp = () => {
             </form>
             <div className="flex items-center pt-4 space-x-1">
               <div className="flex-1 h-px sm:w-16 dark:bg-gray-700"></div>
-              <p className="px-3 text-sm dark:text-gray-400">
+              {/* <p className="px-3 text-sm dark:text-gray-400">
                 Signup with social accounts
-              </p>
+              </p> */}
               <div className="flex-1 h-px sm:w-16 dark:bg-gray-700"></div>
             </div>
-            <div
+            {/* <div
               onClick={handelGoogleRegister}
               className="flex justify-center items-center space-x-2 border m-3 p-2 border-gray-300 border-rounded cursor-pointer"
             >
               <FcGoogle size={32} />
 
               <p>Continue with Google</p>
-            </div>
+            </div> */}
             <p className="px-6 text-sm text-center text-gray-400">
               Already have an account?{" "}
               <Link
